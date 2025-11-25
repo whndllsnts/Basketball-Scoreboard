@@ -71,7 +71,7 @@ body {
   cursor: pointer;
 }
 
-.reset {
+.decrement {
   margin-top: 30px;
   width: 150px;
   height: 50px;
@@ -82,14 +82,7 @@ body {
   border-radius: 4px;
 }
 
-.reset:hover {
+.decrement:hover {
   opacity: 0.8;
   cursor: pointer;
-}
-
-.final {
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  margin-bottom: 30px;
 }
