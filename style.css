@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.main-container {
+  background-color: #1B244A;
+  height: 500px;
+  width: 850px;
+
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+
+  border-radius: 30px;
+}
+
+.team-section {
+  width: 300px;
+  height: 450px;
+  margin: 40px auto;
+}
+
+.team-labels {
+  font-size: 48px;
+  color: #EEEEEE;
+}
+
+.score {
+  background-color: #080001;
+  width: 200px;
+  height: 160px;
+  margin: 25px auto;
+  color: #F94F6D;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-size: 130px;
+  line-height: 180px;
+  border-radius: 20px;
+}
+
+.point {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn {
+  background-color: #1B244A;
+  width: 80px;
+  height: 60px;
+  color: #9AABD8;
+  border: 2px solid #9AABD8;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
+  color: white;
+  cursor: pointer;
+}
+
+.reset {
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #B22222;
+  color: #EEEEEE;
+  border: none;
+  border-radius: 4px;
+}
+
+.reset:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.final {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-bottom: 30px;
+}
