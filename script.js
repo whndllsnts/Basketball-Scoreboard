@@ -19,10 +19,19 @@ function homeScoreThree() {
   homeScorePoint.textContent = homeScore
 }
 
+// home decrement button
 function homeDecrement() {
   homeScore -= 1
   homeScorePoint.textContent = homeScore
 }
+
+// home reset button
+function homeReset() {
+  homeScore = 0
+  homeScorePoint.textContent = homeScore;
+}
+
+
 
 // guest function
 function guestScoreOne() {
@@ -40,7 +49,15 @@ function guestScoreThree() {
   guestScorePoint.textContent = guestScore
 }
 
+//  guest decrement button
 function guestDecrement() {
   guestScore -= 1
   guestScorePoint.textContent = guestScore
 }
+
+// guest reset button
+function guestReset() {
+  guestScore = 0
+  guestScorePoint.textContent = guestScore;
+}
+
